@@ -14,12 +14,12 @@ This repo hosts the PyTorch re-implementation of work on procedure segmentation 
 - Validation : 183
 - Testing : 180
 
-
+36.392 
 ### Results
 |                   | Validation |      | Testing |         |
 | :-----------------|:---------:|:-----:|:---------:|:-----:|
 | Method            | Jaccard   | mIoU  | Jaccard   | mIoU  |
-| Uniform           | -         | -     |   -       | -     |
+| Uniform           | 40.43     | 36.39 | 40.05     | 35.93 |
 | ProcNets (LSTM)   | 54.63     | 37.47 | 51.18     | 36.39 |
 
 
